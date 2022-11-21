@@ -7,7 +7,11 @@ def somme_par_indice_pairs(nombres):
     return somme
 
 def somme_par_valeurs_paires(nombres):
-    
+    somme = 0
+    for i in nombres: # Pour chaque valeur
+        if i%2 == 0:
+            somme = somme + i
+    return somme
 
-list = [1, 2, 3]
-print(somme_par_indice_pairs(list))
+list = [1, 2, 4]
+print(somme_par_valeurs_paires(list))
