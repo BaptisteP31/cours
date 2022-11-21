@@ -6,5 +6,8 @@ def somme_par_indice_pairs(nombres):
 
     return somme
 
+def somme_par_valeurs_paires(nombres):
+    
+
 list = [1, 2, 3]
 print(somme_par_indice_pairs(list))
